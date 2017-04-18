@@ -1,0 +1,53 @@
+// ==========================================================================
+// Plugin Overrides
+// ========================================================================== 
+
+div.wpcf7-mail-sent-ok {
+	border: 0px;
+}
+
+div.wpcf7-mail-sent-ng {
+	border: 0px;
+}
+
+div.wpcf7-spam-blocked {
+	border: 0px;
+}
+
+div.wpcf7-validation-errors {
+	border: 0px;
+}
+
+div.wpcf7-response-output {
+	padding: 0;
+	color: #ffffff;
+	font-size: 14px; 
+}
+
+div.wpcf7 .ajax-loader {
+	display: none;
+} 
+
+.wpcf7-form-control-wrap {
+    position: initial;
+}
+
+// Formidable Form Overrides
+
+fieldset {
+    border: 0px;
+    margin: 0;
+    padding: 0;
+}
+
+div#frm_field_8_container {
+    display: inline-block;
+}
+
+div.frm_submit {
+    display: inline;
+}
+
+div#frm_form_2_container {
+    margin-top: 6em;
+}

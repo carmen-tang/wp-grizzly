@@ -1,0 +1,40 @@
+// ==========================================================================
+// Styles
+// ========================================================================== 
+
+// Do not declare anything before the metadata block; this first section is solely for variable, function, and mixin definitions
+// Note: `bower_components` is already in Sass's path
+
+// Scut, a Sass utilities library: https://davidtheclark.github.io/scut/
+@import "scut";
+
+// Configuration variables and settings
+@import "config";
+
+// Library: mixins, functions, etc. specific to this theme
+@import "library";
+
+/*!
+Theme Name: Grizzled
+Theme URI: http://www.carmentang.net/grizzly-wp/
+Author: Carmen Tang
+Author URI: http://carmentang.net
+Description: Grizzly WP Theme
+Version: #{metadata(theme-version)}
+License: #{metadata(theme-license)}
+License URI: #{metadata(theme-license-uri)}
+*/
+
+// Reset: eliminate default browser styling (optional; commented out by default)
+//@import "reset";
+
+// Normalize: make browsers render things more consistently
+@import "normalize";
+
+// Everything else
+@import "helpers";
+@import "general";
+@import "layout";
+@import "page";
+@import "post";
+@import "overrides";
