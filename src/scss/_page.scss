@@ -5,7 +5,11 @@
 .post-wp {
 	padding: 3em;
 
+	@media (max-width: 768px) {
+		margin-bottom: 12em;
+	}
+
 	@media (max-width: 480px) {
-		padding: 1em; 
+		padding: 1em 3em; 
 	}
 } 
