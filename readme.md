@@ -5,10 +5,13 @@ A functioning WP theme based on a static Grizzly theme by Carmen Tang.
 ## Notes & Features:
 
 * Advanced Custom Fields: See Pages > Testing
-* Custom Widgets for text editing: See Appearance > Widgets (some are fields unused)
-* Simple styled posts & pages are set up to show the WYSIWYG content. A sample post and a sample page are included.
+* Custom Widgets for text editing on homepage: See Appearance > Widgets (some are fields unused)
+* Simple styled posts & pages are set up to show the WYSIWYG content. A sample post and a sample page are included. Post includes the title; pages do not. This was on purpose. But very easy to implement the title if desired.
 * Original form has been discarded, and the Formidable plugin has replaced it. Entries are located in the Formidable admin instead of sending to email. Form placeholder is now slightly transparent by choice. I felt it was better UX. 
-* Instagram script remains the same- could not find an Instagram or carousel plugin that fits the needs of my original build. 
+* Instagram script remains the same- could not find an Instagram or carousel plugin that fit the needs of my original build. I've worked with clients who wanted an instagram feed before and this implementation, I think is fine because the client doesn't really need to change anything with the code. They just add the images to the feed. 
+* A few small adjustments were made to fit the needs of Wordpress. For example, the footer is now permanently at the bottom of the view. Pages or posts that do not have long enough content will have the footer at the bottom instead of being relative to the content. Logo leads to the wordpress homepage now. 
+* I used a base/barebones wordpress build with gulp simply so that I did not have to reinvent the wheel and build every single file by scratch. But I modified it to fit the needs of this project, and knowing how to is the important part, I think! 
+* Everything should function as intended! Enjoy! 
 
 ## INSTALLATION
 
@@ -32,6 +35,6 @@ IMPORTANT:
 
 ## ORGANIZATION
 
-* `src`: this directory contains the raw material for your theme: templates (`src/`), PHP includes (`src/inc`), language files (`src/languages`), styles (`src/scss`), scripts (`src/js`), and images (anywhere under `src/`). **Only edit files in this directory!**
+* `src`: this directory contains the raw material for the theme: templates (`src/`), PHP includes (`src/inc`), language files (`src/languages`), styles (`src/scss`), scripts (`src/js`), and images (anywhere under `src/`).
 
 
