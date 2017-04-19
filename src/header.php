@@ -25,7 +25,7 @@
         <div class="container">
             <div class="header-wrapper">
                 <div class="logo">
-                    <a href="/grizzly-wp/">
+                    <a href="<?php echo home_url(); ?>">
                         <svg version="1.1" id="Artwork" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                         viewBox="0 0 234.1 39" style="enable-background:new 0 0 234.1 39;" xml:space="preserve">
                         <g>
