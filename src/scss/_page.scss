@@ -4,4 +4,8 @@
 
 .post-wp {
 	padding: 3em;
+
+	@media (max-width: 480px) {
+		padding: 1em; 
+	}
 } 
